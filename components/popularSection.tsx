@@ -68,7 +68,7 @@ export default function PopularSection() {
         <div className="card_container">
           {/* <!-- img container --> */}
           <div className="blue_car_container">
-            <img src="/assets/images/blue_car.svg" alt="blue_car" />
+            <img src="assets/images/blue_car.svg" alt="blue_car" />
           </div>
           {/* <!-- card content --> */}
           <div className="card_content">
@@ -85,7 +85,7 @@ export default function PopularSection() {
             </p>
             {/* <!-- car featyures --> */}
             <div className="car_feature_container">
-              <img src="/assets/images/car_features.svg" alt="car_features" />
+              <img src="assets/images/car_features.svg" alt="car_features" />
             </div>
             {/* <!-- card price --> */}
             <div className="card_price">
@@ -102,7 +102,7 @@ export default function PopularSection() {
         <div className="card_container2">
           {/* <!-- img container --> */}
           <div className="blue_car_container">
-            <img src="/assets/images/red_car_img.svg" alt="red_car_img" />
+            <img src="assets/images/red_car_img.svg" alt="red_car_img" />
           </div>
           {/* <!-- card content --> */}
           <div className="card_content">
@@ -119,7 +119,7 @@ export default function PopularSection() {
             </p>
             {/* <!-- car featyures --> */}
             <div className="car_feature_container">
-              <img src="/assets/images/car_features.svg" alt="car_features" />
+              <img src="assets/images/car_features.svg" alt="car_features" />
             </div>
             {/* <!-- card price --> */}
             <div className="card_price">
@@ -164,7 +164,7 @@ export default function PopularSection() {
           {/* <!-- second section --> */}
           <div className="offer_sec_section">
             <div className="phone_img_cont">
-              <img src="/assets/images/mobilePhone.svg" alt="mobilePhone" />
+              <img src="assets/images/mobilePhone.svg" alt="mobilePhone" />
             </div>
             {/* <!-- para contsiner --> */}
             <div className="phone_para_cont">
@@ -184,11 +184,11 @@ export default function PopularSection() {
             <p className="get_in_on">Get in on</p>
             {/* <!-- red apple --> */}
             <div className="red_apple_container">
-              <img src="/assets/images/red_apple.svg" alt="red_apple" />
+              <img src="assets/images/red_apple.svg" alt="red_apple" />
             </div>
             {/* <!-- red google --> */}
             <div className="red_google_container">
-              <img src="/assets/images/red_google.svg" alt="red_google" />
+              <img src="assets/images/red_google.svg" alt="red_google" />
             </div>
           </div>
         </div>

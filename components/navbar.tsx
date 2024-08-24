@@ -35,19 +35,19 @@ export default function Navbar() {
       {/* battery_time_img  inside the mobile device*/}
       <div className="battery_time_img_cont">
         <img
-          src="/assets/images/battery_time_img.svg"
+          src="assets/images/battery_time_img.svg"
           alt="battery_time_img"
         />
       </div>
       <div className="hamburgermenu_container">
       <img
-        src="/assets/images/hamburgermenu.svg"
+        src="assets/images/hamburgermenu.svg"
         alt="hamburgermenu"
         onClick={toggleMenu}
       />
       <div id="hamburgerMenuLinks" className={`menu-links ${menuOpen ? 'open' : 'closed'}`}>
         <img
-          src="/assets/images/close_hamburger_menu.svg"
+          src="assets/images/close_hamburger_menu.svg"
           alt="close_btn_menu"
           className="close_btn_menu"
           onClick={toggleMenu}
@@ -72,12 +72,12 @@ export default function Navbar() {
       <div className='carrental_link_container'>
       <div className="carRental_container">
         <img
-          src="/assets/images/carRental.svg"
+          src="assets/images/carRental.svg"
           alt="carRental"
           className="carRental"
         />
         <img
-          src="/assets/images/carRentalLogo.svg"
+          src="assets/images/carRentalLogo.svg"
           alt="carRentalLogo"
           className="carRentalLogo"
         />
@@ -93,7 +93,7 @@ export default function Navbar() {
           <li className="contactus">Contact Us</li>
         </div>
         <div className="profile_cont">
-          <img src="/assets/images/profile_img.svg" alt="profile_img" />
+          <img src="assets/images/profile_img.svg" alt="profile_img" />
         </div>
       </div>
     

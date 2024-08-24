@@ -10,7 +10,7 @@ export default function FooterSection() {
       {/* <!-- footer logo --> */}
       <div className="footer_logo">
         <img
-          src="/assets/images/alhabtoor_logo-footer.svg"
+          src="assets/images/alhabtoor_logo-footer.svg"
           alt="alhabtoor_logo-footer"
           className="alhabtoor_logo-footer"
         />
@@ -76,7 +76,7 @@ export default function FooterSection() {
       {/* <!-- social links  --> */}
       <div className="socila_link_footer_cont">
         <img
-          src="/assets/images/socila_link_footer.svg"
+          src="assets/images/socila_link_footer.svg"
           alt="socila_link_footer"
           className="socila_link_footer"
         />
@@ -84,7 +84,7 @@ export default function FooterSection() {
       {/* <!-- secure img --> */}
       <div className="secure_img">
         <img
-          src="/assets/images/secure_img.svg"
+          src="assets/images/secure_img.svg"
           alt="secure_img"
           className="secure_imge"
         />
@@ -103,14 +103,14 @@ export default function FooterSection() {
           {/* <!-- logo --> */}
           <div className="footer_logo_mob">
             <img
-              src="/assets/images/carRentalLogo.svg"
+              src="assets/images/carRentalLogo.svg"
               alt="alhabtoor_logo-footer"
               className="alhabtoor_logo_footer_mob"
             />
             <p className="logo_text_mob">Member of the Al Habtoor Group</p>
           </div>
           <img
-            src="/assets/images/socialmedia_mob.svg"
+            src="assets/images/socialmedia_mob.svg"
             alt="socialmedia_mob"
             className="socialmedia_mob"
           />
@@ -153,7 +153,7 @@ export default function FooterSection() {
         </div>
         {/* <!-- img secure image --> */}
         <img
-          src="/assets/images/secure_img_mob.svg"
+          src="assets/images/secure_img_mob.svg"
           alt="secure_img_mob"
           className="secure_img_mob"
         />

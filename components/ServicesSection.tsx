@@ -22,7 +22,7 @@ export default function ServicesSection() {
         <div className="location_cont">
           <div className='location_inner_cont'>
           <img
-            src="/assets/images/loaction.svg"
+            src="assets/images/loaction.svg"
             alt="loaction"
             className="loaction"
           />
@@ -35,7 +35,7 @@ export default function ServicesSection() {
         {/* <!-- calander --> */}
         <div className="calender_cont">
           <img
-            src="/assets/images/calender_img.svg"
+            src="assets/images/calender_img.svg"
             alt="calender_img"
             className="calender_img"
           />
@@ -44,7 +44,7 @@ export default function ServicesSection() {
         {/* <!-- car  --> */}
         <div className="car_cont">
           <img
-            src="/assets/images/red_car_svg.svg"
+            src="assets/images/red_car_svg.svg"
             alt="red_car_svg"
             className="red_car_svg"
           />
@@ -61,7 +61,7 @@ export default function ServicesSection() {
         
         <div className="dubai_container">
           <img
-            src="/assets/images/dubai_location.svg"
+            src="assets/images/dubai_location.svg"
             alt="dubai_location"
             className="dubai_location"
           />
@@ -71,7 +71,7 @@ export default function ServicesSection() {
         {/* <!-- abhu dhabhi --> */}
         <div className="abhudhabhi_container">
           <img
-            src="/assets/images/abhudhabhi_loc.svg"
+            src="assets/images/abhudhabhi_loc.svg"
             alt="abhudhabhi_loc"
             className="abhudhabhi_loc"
           />
@@ -81,7 +81,7 @@ export default function ServicesSection() {
         {/* <!-- sharja --> */}
         <div className="sharja_container">
           <img
-            src="/assets/images/sharja_location.svg"
+            src="assets/images/sharja_location.svg"
             alt="sharja_location"
             className="sharja_location"
           />
@@ -91,7 +91,7 @@ export default function ServicesSection() {
         {/* <!-- fujairha --> */}
         <div className="fujairha_container">
           <img
-            src="/assets/images/abhudhabhi_loc.svg"
+            src="assets/images/abhudhabhi_loc.svg"
             alt="fujairha_loc"
             className="fujairha_loc"
           />
@@ -101,7 +101,7 @@ export default function ServicesSection() {
         {/* <!-- ras al khaimha  --> */}
         <div className="rasalkhaima_container">
           <img
-            src="/assets/images/abhudhabhi_loc.svg"
+            src="assets/images/abhudhabhi_loc.svg"
             alt="rasalkhaima"
             className="rasalkhaima"
           />

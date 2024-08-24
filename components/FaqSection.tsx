@@ -60,9 +60,9 @@ type Faqs = {
           <div key={index} className={`faq${index + 1}`}>
             <div className="faq-question">
               {faq.question}
-              <img src="/assets/images/open.svg" className="open"       style={{ display: openIndex === index ? 'none' : 'inline' }}
+              <img src="assets/images/open.svg" className="open"       style={{ display: openIndex === index ? 'none' : 'inline' }}
                 onClick={() => toggleFAQ(index)} />
-              <img src="/assets/images/close.svg" className="close"   style={{ display: openIndex === index ? 'inline' : 'none' }}
+              <img src="assets/images/close.svg" className="close"   style={{ display: openIndex === index ? 'inline' : 'none' }}
                 onClick={() => toggleFAQ(index)} />
             </div>
             <div className="faq-answer"   style={{

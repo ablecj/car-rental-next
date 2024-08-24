@@ -18,7 +18,7 @@ export default function Header() {
   // array of carousels
   const slides: Slide[] = [
     {
-      imgSrc: "/assets/images/summer_promotion_img.svg",
+      imgSrc: "assets/images/summer_promotion_img.svg",
       altText: "summer_promotion_img",
       content: (
         <>
@@ -31,7 +31,7 @@ export default function Header() {
       ),
     },
     {
-      imgSrc: "/assets/images/summer_promotion_img.svg",
+      imgSrc: "assets/images/summer_promotion_img.svg",
       altText: "summer_promotion_img",
       content: (
         <>
@@ -44,7 +44,7 @@ export default function Header() {
       ),
     },
     {
-      imgSrc: "/assets/images/summer_promotion_img.svg",
+      imgSrc: "assets/images/summer_promotion_img.svg",
       altText: "summer_promotion_img",
       content: (
         <>
@@ -127,7 +127,7 @@ const differentDropOffFields = [
         <div className="input_container">
           {/* input for locations */}
           <img
-            src="/assets/images/location_img.svg"
+            src="assets/images/location_img.svg"
             alt="location_img"
             className="location_img"
           />
@@ -145,14 +145,14 @@ const differentDropOffFields = [
             <option value="van">Van</option>
           </select>
           <img
-            src="/assets/images/red_doen_arrow.svg"
+            src="assets/images/red_doen_arrow.svg"
             alt="red_doen_arrow"
             className="red_doen_arrow"
           />
 
           {/* input for first date */}
           <img
-            src="/assets/images/calender.svg"
+            src="assets/images/calender.svg"
             alt="calender"
             className="calender_date_time"
           />
@@ -166,7 +166,7 @@ const differentDropOffFields = [
 
           {/* input for second date  */}
           <img
-            src="/assets/images/calender.svg"
+            src="assets/images/calender.svg"
             alt="calender"
             className="calender_date_time"
           />
@@ -180,7 +180,7 @@ const differentDropOffFields = [
 
           {/* search image  icon */}
           <img
-            src="/assets/images/search_img.svg"
+            src="assets/images/search_img.svg"
             alt="search_img"
             className="search_img"
           />
@@ -197,11 +197,11 @@ const differentDropOffFields = [
         </p>
         {/* <!-- applecontainer --> */}
         <div className="apple_container">
-          <img src="/assets/images/apple_img.svg" alt="apple_img" />
+          <img src="assets/images/apple_img.svg" alt="apple_img" />
         </div>
         {/* <!-- google container --> */}
         <div className="google_container">
-          <img src="/assets/images/google_img.svg" alt="google_img" />
+          <img src="assets/images/google_img.svg" alt="google_img" />
         </div>
       </div>
 
@@ -209,14 +209,14 @@ const differentDropOffFields = [
       <div className="support_icon">
         {/* call icon */}
         <img
-          src="/assets/images/call_icon.svg"
+          src="assets/images/call_icon.svg"
           alt="call_icon"
           className="call_icon"
         />
         {/* twentyfoure * 7 */}
         <div className="twentyfourebyseven_cont">
           <img
-            src="/assets/images/24by7.svg"
+            src="assets/images/24by7.svg"
             alt="24by7"
             className="twentyfourebyseven"
           />
