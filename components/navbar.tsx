@@ -19,16 +19,16 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="social_img">
         <div className="facebook">
-          <img src="/assets/images/facebook.svg" alt="facebook" />
+          <img src="assets/images/facebook.svg" alt="facebook" />
         </div>
         <div className="instagram">
-          <img src="/assets/images/instagram.svg" alt="instagram" />
+          <img src="assets/images/instagram.svg" alt="instagram" />
         </div>
         <div className="twitter">
-          <img src="/assets/images/tweet.svg" alt="tweet" />
+          <img src="assets/images/tweet.svg" alt="tweet" />
         </div>
         <div className="linkedin">
-          <img src="/assets/images/linkedin.svg" alt="linkedin" />
+          <img src="assets/images/linkedin.svg" alt="linkedin" />
         </div>
       </div>
 
