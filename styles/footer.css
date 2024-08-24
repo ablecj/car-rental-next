@@ -1,0 +1,833 @@
+.footer_parent {
+    overflow: hidden;
+}
+
+/* footer_section */
+.footer_section {
+    width: 100%;
+    height: 303px;
+    background-color: #000000;
+    position: relative;
+  }
+  .footer_logo {
+    width: 105px;
+    height: 111px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+  }
+  .alhabtoor_logo-footer {
+    object-fit: cover;
+  }
+  .logo_text {
+    margin: 0;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #ffffff;
+  }
+  /* link_inside_footer */
+  .link_inside_footer {
+    width: 565px;
+    height: 170px;
+    position: absolute;
+    left: 399px;
+    top: 40px;
+  }
+  .footer_link_row1 {
+    width: 565px;
+    height: 20px;
+    display: flex;
+  }
+  .home_link {
+    margin: 0;
+    height: 20px;
+    width: 39px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .offers_link {
+    position: absolute;
+    margin: 0;
+    width: 39px;
+    height: 20px;
+    left: 122.5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .faq_link {
+    position: absolute;
+    margin: 0;
+    width: 26px;
+    height: 20px;
+    left: 258.5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .career_link {
+    width: 45px;
+    height: 20px;
+    margin: 0;
+    position: absolute;
+    left: 419.5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #ffffff;
+  }
+  /* row 2 */
+  .footer_link_row2 {
+    width: 565px;
+    height: 20px;
+    display: flex;
+    margin-top: 16px;
+  }
+  /* about_us_link */
+  .about_us_link {
+    width: 59px;
+    height: 20px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #ffffff;
+  }
+  /* locations_link */
+  .locations_link {
+    width: 63px;
+    height: 20px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    position: absolute;
+    left: 123px;
+    color: #ffffff;
+  }
+  /* privacy_link */
+  .privacy_link {
+    width: 90px;
+    height: 20px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    left: 259px;
+  }
+  .term_condition_link {
+    margin: 0;
+    width: 129px;
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    left: 420px;
+  }
+  /* footer_link_row3 */
+  .footer_link_row3 {
+    width: 565px;
+    height: 20px;
+    display: flex;
+    margin-top: 16px;
+  }
+  /* services_link */
+  .services_link {
+    width: 55px;
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #ffffff;
+    margin: 0;
+  }
+  /* contactus_link */
+  .contactus_link {
+    margin: 0;
+    width: 73px;
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    left: 123px;
+  }
+  /* service_request_link */
+  .service_request_link {
+    width: 105px;
+    height: 20px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    left: 259px;
+  }
+  /* Al_Habtoor_Companies */
+  .Al_Habtoor_Companies {
+    width: 149px;
+    height: 20px;
+    margin-top: 19px;
+    display: flex;
+  }
+  .Al_Habtoor_Companies_link {
+    margin: 0;
+    width: 149px;
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #ffffff;
+  }
+  /* hospitality_container */
+  .hospitality_container {
+    width: 565px;
+    height: 24px;
+    margin-top: 16.5px;
+    display: flex;
+  }
+  /* hospit_link */
+  .hospit_link {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    text-align: left;
+    margin: 0;
+    color: #ffffff;
+    width: 65px;
+    height: 24px;
+  }
+  /* real_estate_link */
+  .real_estate_link {
+    width: 68px;
+    height: 24px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    left: 86px;
+  }
+  /* education_link */
+  .education_link {
+    width: 63px;
+    height: 24px;
+    position: absolute;
+    left: 175px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .publishing_link {
+    width: 64px;
+    height: 24px;
+    margin: 0;
+    position: absolute;
+    left: 258px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #ffffff;
+  }
+  /* automotive_link */
+  .automotive_link {
+    width: 73px;
+    height: 24px;
+    margin: 0;
+    position: absolute;
+    left: 344px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #ffffff;
+  }
+  /* leasing_link  */
+  .leasing_link {
+    height: 24px;
+    width: 96px;
+    margin: 0;
+    position: absolute;
+    left: 438px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #ffffff;
+  }
+  /* follow_container */
+  .follow_container {
+    width: 103px;
+    height: 21px;
+    position: absolute;
+    left: 1201px;
+    top: 40px;
+  }
+  .follow_container p {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+  }
+  /* socila_link_footer_cont */
+  .socila_link_footer_cont {
+    width: 138px;
+    height: 16.59px;
+    position: absolute;
+    left: 1199px;
+    top: 71px;
+  }
+  .socila_link_footer {
+    object-fit: cover;
+  }
+  /* secure_img  */
+  .secure_img {
+    width: 64px;
+    height: 24px;
+    position: absolute;
+    left: 1199px;
+    top: 119px;
+  }
+  /* secure_img */
+  .secure_imge {
+    object-fit: cover;
+  }
+  .horizontal_line {
+    width: 99.9%;
+    border: 0.5px solid #ffffff;
+    position: absolute;
+    top: 234px;
+  }
+  
+  /* copy_right_container */
+  .copy_right_container {
+    width: 257px;
+    height: 18px;
+    position: absolute;
+    top: 258px;
+    left: 578px;
+  }
+  .copy_right_container p {
+    margin: 0;
+    width: 257px;
+    height: 18px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  /* footer for themobile */
+  .footer_container_mob {
+    display: none;
+  }
+
+/* mobile responsive footer  */
+@media only screen and (max-width: 567px) { 
+
+  /* footer_section */
+.footer_section {
+  display: none;
+}
+/* first_section_mob */
+.first_section_mob {
+  width: 100%;
+  background-color: #F6F7F9;
+  height: 170px;
+
+}
+/* footer_container_mob */
+.footer_container_mob {
+  display: flex;
+  width: 100%;
+  height: 377px;
+  position: relative;
+  flex-direction: column;
+}
+.footer_logo_mob {
+  width: 113px;
+  height: 46px;
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  display: flex;
+  align-items: flex-end;
+}
+.alhabtoor_logo_footer_mob {
+  height: 46px;
+
+}
+.logo_text_mob {
+  margin: 0;
+  margin-left: 5px;
+  width: 68px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 7.77px;
+  font-weight: 500;
+  line-height: 11.66px;
+  text-align: left;
+  color: #000000;
+}
+.socialmedia_mob {
+  position: absolute;
+  left: 58%;
+  top: 28px;
+}
+/* first_row */
+.first_row {
+  width: 90%;
+  height: 18px;
+  left: 36px;
+  position: absolute;
+  top: 77px;
+  display: flex;
+}
+.home_mob{
+  margin: 0;
+  width: 36px;
+  height: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+}
+.offers_mob {
+  margin: 0;
+  width: 36px;
+  height: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+  position: absolute;
+  left: 20%;
+}
+.career_mob {
+  margin: 0;
+  position: absolute;
+  width: 42px;
+  height: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+  left: 40%;
+}
+.about_mob {
+  margin: 0;
+  position: absolute;
+  width: 55px;
+  height: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+  left: 60%;
+}
+.location_mob {
+  width: 58px;
+  height: 18px;
+  margin: 0;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+  left: 80%;
+}
+/* second row */
+.sec_row_mob {
+  width: 88%;
+  height: 20px;
+  position: absolute;
+  left: 40px;
+  top: 107px;
+  display: flex;
+}
+.faq_mob {
+  margin: 0;
+  width: 24px;
+  height: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+}
+.terms_mob {
+  margin: 0;
+  position: absolute;
+  width: 119px;
+  height: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+  left: 18.33%;
+}
+.service_mob {
+  margin: 0;
+  width: 105px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+  position: absolute;
+  left: 63.33%;
+}
+
+/* third_row_mob */
+.third_row_mob {
+  width: 70%;
+  height: 18px;
+  position: absolute;
+  left: 60px;
+  top: 139px;
+  display: flex;
+  justify-content: space-between;
+}
+.privacy_mob {
+  width: 83px;
+  height: 18px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+}
+.services_mob {
+  width: 51px;
+  height: 18px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  margin-left: 16px;
+  color: #000000;
+}
+.contact_mob {
+  margin: 0;
+  width: 67px;
+  height: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+  margin-left: 16px;
+}
+
+
+/* footer_sec_section_mob */
+.footer_sec_section_mob {
+  width: 100%;
+  height: 207px;
+  background-color: #000000;
+}
+.second_sec_title {
+  width: 150px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  bottom: 173px;
+  transform: translateX(-50%);
+  margin: 0;
+
+}
+.sec_sec_first_row {
+  width: 80%;
+  height: 20px;
+  position: absolute;
+  left: 49px;
+  bottom: 141px;
+  display: flex;
+  justify-content: space-between;
+}
+.hospitality_mob {
+  width: 65px;
+  height: 20px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.real_mob {
+  width: 68px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  color: #FFFFFF;
+  margin: 0;
+  margin-left: 34px;
+}
+.publish {
+  margin: 0;
+  width: 64px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-left: 31px;
+}
+
+/* sec_row_mob */
+.sec_row_sec {
+  width: 65%;
+  height: 20px;
+  position: absolute;
+  left: 81px;
+  bottom: 109px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.automotive_mob {
+  margin: 0;
+  width: 73px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+.vehicle_mob {
+  margin: 0;
+  width: 96px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-left: 28px;
+
+}
+.secure_img_mob {
+  position: absolute;
+  left: 45%;
+  bottom: 66.01px;
+}
+/* vertical_line_mob */
+.vertical_line_mob {
+  width: 100%;
+  border: 0.5px solid #FFFFFF;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 44px;
+}
+/* copy_right_mob */
+.copy_right_mob {
+  margin: 0;
+  width: 70%;
+  height: 17px;
+  position: absolute;
+  bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  text-align: left;
+  color: #FFFFFF;
+  left: 25%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

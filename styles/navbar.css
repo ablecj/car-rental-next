@@ -1,0 +1,254 @@
+.navbar {
+  width: auto;
+  height: auto;
+  background-color: #fff;
+}
+/* social_img */
+.social_img {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  margin-right: 64px;
+  padding-top: 15px;
+}
+.battery_time_img_cont {
+  display: none;
+}
+.hamburgermenu_container {
+  display: none;
+}
+.menu-links {
+  display: none;
+}
+
+/* logo container inside the navbar */
+.carrental_link_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 65px;
+  margin-left: 74px;
+}
+
+.carRental_container {
+  display: flex;
+  width: fit-content;
+}
+
+/* link_container */
+.link_container {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  width: fit-content !important;
+  gap: 32px;
+  overflow: hidden;
+}
+
+.links {
+  display: flex;
+  gap: 32px;
+  flex: 1;
+  align-items: center;
+}
+
+.links > li {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22.5px;
+  text-align: left;
+  color: #000000;
+}
+
+.profile_cont {
+  overflow: hidden;
+}
+
+/* mobile text small */
+.text_container_mob {
+  display: none;
+}
+
+.text_container {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 62px;
+  height: 7px;
+  opacity: 0.5;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+/* media query for the small devices */
+@media only screen and (max-width: 567px) {
+  /* navbar */
+  .navbar {
+    width: 100%;
+    background-color: #fff;
+  }
+  .battery_time_img_cont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 15px 0 18px 0;
+  }
+  .battery_time_img_cont img {
+    width: 95%;
+  }
+
+  /* hamburger menu */
+  .hamburgermenu_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 13px;
+  }
+  .menu-icon {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    cursor: pointer;
+  }
+  
+  .menu-links {
+    display: none; /* Initially hidden */
+    /* Your styles here */
+  }
+  
+  .menu-links.open {
+    display: block;
+    right: 0;
+    left: 19%;
+}
+  
+  .menu-links.closed {
+    display: none; /* Hide when closed */
+  }
+
+  
+  .menu-links {
+    display: none;
+    flex-direction: column;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    width: 77%;
+    height: 543px;
+    padding: 10px;
+    z-index: 5;
+}
+  
+  /* Position the close button in the top right corner */
+  .close_btn_menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .menu-links a {
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+  }
+  
+  .menu-links a:hover {
+    background-color: #575757;
+  }
+
+  /* vertical_line_menu */
+  .vertical_line_menu {
+    width: 255px;
+    border: 0.5px solid #000000;
+    opacity: 0.1;
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+
+  /* login */
+  .login {
+    width: 143px;
+    height: 29px;
+    border-radius: 36px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 63px;
+    margin-left: 33px;
+  }
+
+
+
+
+  /* social links  */
+  .social_img {
+    display: none;
+  }
+
+  .carrental_link_container {
+    width: fit-content;
+    margin: 0 0 0 26.35px;
+  }
+
+  /* logo inside the navbar */
+  .carRental_container {
+    width: 155.94px;
+    height: 23.6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .carRental {
+    width: 121px;
+    height: 9.97px;
+  }
+  .carRentalLogo {
+    width: 20.29px;
+    height: 23.6px;
+    margin-left: 14.65px;
+  }
+
+  /* links inside the navabar desktop */
+  .link_container {
+    display: none;
+  }
+
+  /* paragrapg inside the dektop */
+  .text_container {
+    display: none;
+  }
+
+  /* mobile paragraph */
+  .text_container_mob {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: -0.035em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    margin: 0;
+    height: 7px;
+    padding-bottom: 6px;
+  }
+}

@@ -1,0 +1,759 @@
+.popular_car_container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 41px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* title for the popula section */
+.most_popular_car {
+  margin: 0;
+  width: 314px;
+  height: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 34.74px;
+  font-weight: 400;
+  line-height: 52.11px;
+  text-align: center;
+}
+
+/* card_wrapper */
+.card_wrapper {
+  display: flex;
+}
+/* first card  */
+.card_container {
+  display: flex;
+  margin-left: 64px;
+  margin-top: 40px;
+}
+.card_content {
+  padding-left: 40px;
+  width: 384px;
+  height: 293px;
+  border: 1px solid #D9D9D9;
+}
+.card_title {
+    margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: left;
+  color: #1a202c;
+  width: 248px;
+  height: 42px;
+  margin-top: 25px;
+}
+
+/* card content */
+.card_cont {
+    margin: 0;
+  width: 298px;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18.5px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 65px;
+}
+
+/* card content mobile */
+.card_cont_mob {
+    display: none;
+}
+
+/* price for the first card */
+.card_price {
+    margin: 0;
+    width: 152px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #1A202C;
+}
+
+/* car_feature_container */
+.car_feature_container{
+    width: fit-content;
+}
+
+/* price_mob */
+.price_mob {
+    display: none;
+}
+
+/* button for book  */
+.book_now_btn {
+    width: 98px;
+    height: 37px;
+    position: absolute; 
+    left: 680px;
+    top: 312px;
+    padding: 0px 20px;
+    gap: 8px;
+    border-radius: 4px 0px 0px 0px;
+    background-color: #E21E26;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    /* line-height: 21px; */
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+/* second card  book now button*/
+.book_now_btn2 {
+  width: 98px;
+  height: 37px;
+  position: absolute; 
+  right: 0;
+  top: 312px;
+  padding: 0px 20px;
+  gap: 8px;
+  border-radius: 4px 0px 0px 0px;
+  background-color: #E21E26;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  /* line-height: 21px; */
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+  display: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+/* card_container2 */
+.card_container2 {
+  display: flex;
+  margin-left: 12px;
+  margin-top: 40px;
+}
+
+/* subscribe section for */
+.offeres_container_parent {
+  width: 1440px;
+  height: 546px;
+  position: relative;
+}
+.offeres_container {
+  width: 1234px;
+  height: 506px;
+  position: absolute;
+  top: 40px;
+  left: 142px;
+  display: flex;
+}
+/* offers_first_sec */
+.offers_first_sec {
+  width: 590px;
+  height: 506px;
+  background-color: #ffffff;
+}
+.offers_first_sec_title {
+  width: 550px;
+  height: 100px;
+  margin: 0;
+  position: absolute;
+  top: 38px;
+  font-family: Poppins, sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 51px;
+  text-align: left;
+  color: #000000;
+}
+/* offer_input_container */
+.offer_input_container {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 179px;
+  display: flex;
+  justify-content: space-between;
+}
+.name_input {
+  width: 223px;
+  height: 45px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  padding-left: 10px;
+}
+.name_input::placeholder {
+  width: 37px;
+  height: 17px;
+  padding: 13.57px 13.43px 165.93px 20.07px;
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+.email_input {
+  width: 223.11px;
+  height: 45.27px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  padding-left: 10px;
+  margin-left: 5px;
+}
+.email_input::placeholder {
+  width: 33px;
+  height: 18px;
+  padding: 13.78px 173.8px 13.49px 16.31px;
+}
+/* offers_para */
+.offers_para {
+  position: absolute;
+  top: 240px;
+  width: 478px;
+  height: 42px;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: left;
+  color: #000000;
+}
+
+/* mobile_view_para */
+.mobile_view_para {
+  display: none;
+}
+
+.subscribe_btn {
+  width: 464px;
+  height: 57.08px;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  top: 322px;
+  background-color: #e21e26;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+/* offer_sec_section */
+.offer_sec_section {
+  width: 644px;
+  height: 506px;
+  background-color: #e21e26;
+}
+.phone_img_cont {
+  width: 231px;
+  height: 417px;
+  position: absolute;
+  top: 48px;
+  right: 342px;
+}
+.phone_img_cont img {
+  width: 231px;
+  height: 417px;
+  object-fit: cover;
+}
+.phone_para_cont {
+  width: 233px;
+  height: 43px;
+  position: absolute;
+  top: 123.42px;
+  right: 85px;
+}
+.phone_para {
+  width: 233px;
+  height: 43px;
+  margin: 0;
+  top: 123.42px;
+  left: 326px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21.5px;
+  text-align: left;
+  color: #ffffff;
+}
+/* enter_ph_no_container */
+.enter_ph_no_container {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 179px;
+  right: 60px;
+}
+.enter_ph_no_container input {
+  width: 263px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+}
+.enter_ph_no_container input:focus {
+  outline: none;
+}
+.enter_ph_no_container input::placeholder {
+  padding-left: 22px;
+}
+
+/* get link button */
+.get_link_cintainer {
+  width: 144px;
+  height: 42px;
+  position: absolute;
+  top: 247.42px;
+  right: 179px;
+}
+.get_link_cintainer button {
+  width: 144px;
+  height: 42px;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+}
+/* get_in_on */
+.get_in_on {
+  width: 63px;
+  height: 21px;
+  position: absolute;
+  top: 332.42px;
+  right: 260px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* red_apple_container */
+.red_apple_container {
+  width: 103px;
+  height: 30px;
+  position: absolute;
+  top: 376px;
+  right: 219px;
+}
+/* red_google_container */
+.red_google_container {
+  width: 103px;
+  height: 30px;
+  position: absolute;
+  top: 376px;
+  right: 108px;
+}
+
+/* media query for the popular section */
+@media only screen and (max-width: 567px) {
+
+  /* popular section */
+  .popular_car_container {
+    width: 100%;
+    position: relative;
+    margin-top: 24px;
+  }
+  /* popular section title */
+  .most_popular_car {
+    width: 145px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 0 0 17px;
+  }
+  /* card wrapper  */
+  .card_wrapper {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 16px;
+    overflow-x: scroll;
+  }
+
+  /* card_container */
+.card_container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+
+}
+.blue_car_container {
+  width: 100%;
+}
+.blue_car_container img {
+  object-fit: cover;
+  width: 82%;
+}
+.card_content {
+  width: 82%;
+  padding: 0 0 10px 0;
+  overflow: hidden;
+  height: auto;
+}
+.card_title {
+  width: 142px;
+  margin-top: 10.49px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #1A202C;
+  margin-left: 10px;
+}
+/* desktop contenet */
+.card_cont {
+  display: none;
+}
+.card_cont_mob{
+  display: flex;
+  margin: 3px 0 0 10.49px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: left;
+}
+/* car_feature_container */
+.car_feature_container {
+  margin: 11px 0 0 10px;
+  
+}
+.para_desktop {
+  display: none;
+}
+
+/* price_mob */
+.price_mob {
+  display: flex;
+  width: 159px;
+  height: fit-content;
+  margin: 0;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  margin: 10px 0 0 10px;
+}
+.price_mob span {
+  margin-left: 5px;
+}
+.book_now_btn {
+  width: 128px;
+  height: 38px;
+  position: static;
+  margin-left: 10px;
+
+}
+
+/* card_container2 */
+.card_container2 {
+  margin: 0 0 0 5px;
+  display: flex;
+  flex-direction: column;
+}
+.card2_price_Desk {
+  display: none;
+}
+.book_now_btn2 {
+  width: 128px;
+  height: 38px;
+  position: static;
+  margin-left: 10px;
+  display: flex;
+}
+
+.offeres_container_parent {
+  width: 100%;
+  height: 725px;
+}
+/* offeres_container */
+.offeres_container {
+  width: 100%;
+  height: 725px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+/* offers_first_sec */
+.offers_first_sec {
+  width: 100%;
+  height: 323px;
+}
+/* offers_first_sec_title */
+.offers_first_sec_title {
+  width: 227px;
+  height: 48px;
+  position: absolute;
+  top: 24px;
+  left: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+/* offer_input_container */
+.offer_input_container {
+  width: 94%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 88px;
+  left: 16px;
+  height: 119px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+/* name_input */
+.name_input {
+  width: 97%;
+  height: 62px;
+  border-radius: 5px;
+}
+.nameValidationSpan{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 11px;
+  color: #E21E26;
+  margin: 5px 1px 5px 2px;
+}
+
+/* email_input */
+.email_input {
+  width: 97%;
+  height: 62px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.emailValidationSpan{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 11px;
+  color: #E21E26;
+  margin: 5px 1px 5px 2px;
+}
+
+.offers_para {
+  display: none;
+}
+.mobile_view_para {
+  position: absolute;
+  left: 16px;
+  top: 208px;
+  width: 94%;
+  height: 54px;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+  margin: 0;
+}
+/* subscribe_btn */
+.subscribe_btn {
+  width: 128px;
+  height: 38px;
+  position: absolute;
+  top: 278px;
+  left: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: center;
+}
+/* offer_sec_section */
+.offer_sec_section {
+  width: 92%;
+  height: 390px;
+  position: absolute;
+  left: 16px;
+  top: 333px;
+  border-radius: 5px;
+}
+/* mobile image section */
+.phone_img_cont {
+  width: 136px;
+  height: 245px;
+  position: absolute;
+  left: 16px;
+  top: 8px;
+}
+.phone_img_cont img {
+  width: 136px;
+  height: 245px;
+}
+.phone_para_cont {
+  width: 50%;
+  height: 49px;
+  position: absolute;
+  top: 190px;
+  left: 159px;
+}
+.phone_para {
+  width: 100%;
+  height: 49px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.6px;
+  text-align: left;
+}
+/* enter_ph_no_container */
+.enter_ph_no_container {
+  width: 95%;
+  height: 50px;
+  position: absolute;
+  left: 16px;
+  top: 263px;
+}
+.enter_ph_no_container input {
+  width: 95%;
+  height: 48px;
+}
+.validation_span {
+  color: #000000;
+  margin-bottom: 5px;
+}
+.get_in_on {
+  width: 51px;
+  height: 16px;
+  position: absolute;
+  top: 19px;
+  left: 160px;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 15.6px;
+  text-align: left;
+}
+/* red_apple_container */
+.red_apple_container {
+  width: 103px;
+  height: 30px;
+  position: absolute;
+  top: 51px;
+  left: 160px;
+}
+/* red_google_container */
+.red_google_container {
+  width: 103px;
+  height: 30px;
+  position: absolute;
+  top: 89px;
+  left: 160px;
+}
+/* get_link_cintainer */
+.get_link_cintainer {
+  width: 129px;
+  height: 39px;
+  position: absolute;
+  top: 333px;
+  left: 16px;
+}
+.get_link_cintainer button {
+  width: 129px;
+  height: 39px;
+  border-radius: 4px;
+}
+/* rent_container */
+.rent_container {
+  width: 360px;
+  height: 930px;
+}
+/* title_container */
+.title_container {
+  width: 211px;
+  height: 24px;
+  position: absolute;
+  top: 24px;
+  left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
