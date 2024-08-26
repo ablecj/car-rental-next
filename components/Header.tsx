@@ -101,6 +101,14 @@ const differentDropOffFields = [
   { id: 'calender', placeholder: 'Drop-Off Date', type: 'datetime-local', name: 'dropoffdate' },
 ];
 
+// const [appointment, setAppointment] = useState('2024-08-15T09:00');
+// const [appointment2, setAppointment2] = useState('2024-08-15T09:00');
+//   // Function to handle date change
+//   const handleDateChange = (event: React.ChangeEvent<HTMLInputElement>, setDate: React.Dispatch<React.SetStateAction<string>>) => {
+//     setDate(event.target.value);
+//   };
+
+
   return (
     <div className="header_parent">
       <div className="red_container">
@@ -161,7 +169,8 @@ const differentDropOffFields = [
             id="appointment"
             name="appointment"
             className="date_time_local"
-            value="2024-08-15T09:00"
+            // value={appointment}
+            // onChange={(e) => handleDateChange(e, setAppointment)}
           />
 
           {/* input for second date  */}
@@ -175,7 +184,8 @@ const differentDropOffFields = [
             id="appointment2"
             name="appointment"
             className="date_time_local2"
-            value="2024-08-15T09:00"
+            // value={appointment2}
+            // onChange={(e) => handleDateChange(e, setAppointment2)}
           />
 
           {/* search image  icon */}

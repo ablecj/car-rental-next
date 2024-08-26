@@ -226,6 +226,16 @@
   height: 18px;
   padding: 13.78px 173.8px 13.49px 16.31px;
 }
+
+.emailValidationSpan {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  color: #E21E26;
+}
+
 /* offers_para */
 .offers_para {
   position: absolute;
@@ -306,6 +316,8 @@
   position: absolute;
   top: 179px;
   right: 60px;
+  display: flex;
+  flex-direction: column;
 }
 .enter_ph_no_container input {
   width: 263px;
@@ -320,6 +332,14 @@
 .enter_ph_no_container input::placeholder {
   padding-left: 22px;
 }
+
+/* emailValidationSpan */
+.validation_span {
+  margin: 3px 0 3px 0; 
+  font-size: 12px;
+  color: #fff;
+}
+
 
 /* get link button */
 .get_link_cintainer {
@@ -373,6 +393,9 @@
   top: 376px;
   right: 108px;
 }
+
+
+
 
 /* media query for the popular section */
 @media only screen and (max-width: 567px) {

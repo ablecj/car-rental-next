@@ -144,7 +144,6 @@ export default function PopularSection() {
             {/* <!-- input --> */}
             <div className="offer_input_container">
               <input type="text" name="name" placeholder="Name" className="name_input" onChange={handleChange}  />
-              {/* <span className="nameValidationSpan">{nameValidationMsg}</span> */}
               <input type="text" name="email" placeholder="Email" className="email_input" onChange={handleChange}  />
               <span className="emailValidationSpan">{error}</span>
             </div>
